@@ -77,6 +77,29 @@ npm start
 ### Fronted code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
 
+### RYTU-Backend
+Description:
+The backend is powered by Node.js, Graphql and Express.js, responsible for handling API requests, transaction validation, and integration with the XRPL.
+
+#### Key Features
+- API for querying NFT metadata and marketplace transactions.
+- Authentication and user management.
+- Analytics and reporting on NFT activity.
+
+#### Installation Instructions
+- Git clone the repository
+- Navigate to the rytu-backend directory:
+```
+cd rytu-backend
+```
+- Install dependencies:
+```
+npm install or yarn install
+```
+- Start the server:
+```
+npm start or yarn start
+```
 # Backend code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-backend)
 
