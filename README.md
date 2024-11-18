@@ -12,6 +12,12 @@
 
 </div>
 
+Welcome to the RYTU Core Repository, which contains the essential components of the RYTU platform, enabling seamless minting, management, and trading of content rights through NFTs. This repository is organized into three main components:
+
+- RYTU-Frontend: The user-facing interface for interaction.
+- RYTU-Backend: Handles API requests, business logic, and data orchestration.
+- RYTU-Contract: Solidity-based smart contracts that implement the marketplace's logic.
+
 
 # Fronted code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
