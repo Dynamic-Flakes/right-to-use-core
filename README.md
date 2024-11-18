@@ -148,7 +148,15 @@ forge build
 #### Smart contracts code located in:
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
-### Roadmap
-- Phase 1: Complete the MVP and deploy core functionality on XRPL EVM Sidechain (0-3 months).
-- Phase 2: Add advanced features (fractional ownership, auctions, gamification) (3-6 months).
-- Phase 3: Scale the marketplace and integrate sustainability incentives (6-12 months).
+### Product Roadmap
+- Phase 1 (0-3 months):
+   - Deploy MVP with core marketplace features on  XRPL EVM Sidechain
+   - Integrate XRPL wallet support.
+ 
+- Phase 2 (3-6 months):
+    - Add fractional ownership and royalty distribution.
+    - Implement advanced auction mechanics.
+
+- Phase 3 (6-12 months):
+   - Scale platform with gamified rewards.
+   - Introduce sustainability-focused features.
