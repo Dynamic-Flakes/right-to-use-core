@@ -18,7 +18,7 @@ Welcome to the RYTU Core Repository, which contains the essential components of 
 - RYTU-Backend: Handles API requests, business logic, and data orchestration.
 - RYTU-Contract: Solidity-based smart contracts that implement the marketplace's logic. This is deployed on XRPL EVM Sidechain
 
-## Repository Structure
+## Core RYTU Includes:
 ```
 RYTU-Core/
 ├── rytu-frontend/
