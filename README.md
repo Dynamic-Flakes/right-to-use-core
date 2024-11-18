@@ -74,15 +74,8 @@ npm start
 
 ```
 
-<br />
-<div align="center">
-  <a href="https://rytu.netlify.app/">
-    <img src="./diagrams/rytuui.png" alt="Logo" width="200" height="55">
-  </a>
+![Alt text](./diagrams/rytuui.png?raw=true "Rytu on Testnet")
 
-  <h3 align="center">The Right to Use (RYTU)</h3>
-
-</div>
 
 ### Fronted code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
