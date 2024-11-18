@@ -149,14 +149,30 @@ forge build
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
 ### Product Roadmap
-- Phase 1 (0-3 months):
-   - Deploy MVP with core marketplace features on  XRPL EVM Sidechain
-   - Integrate XRPL wallet support.
+- Phase 1: Research, Design, and Prototype Development (Months 1–3)
+:
+   - Research and define integration strategies with XRPL’s infrastructure.
+   - Design a seamless user interface for onboarding creators and buyers, focusing on intuitive workflows
+   - Develop prototype smart contracts for minting RYTU NFTs (ERC-721 and ERC-1155 standards) and royalty distribution.
+   - Set up a test environment on XRPL Devnet to validate initial functionalities.
  
-- Phase 2 (3-6 months):
-    - Add fractional ownership and royalty distribution.
+- Phase 2: Core Platform Development (Months 4–6)
+    - Implement marketplace features: bidding system, unlockable content, and personal NFT collections
+    - Integrate XRPL wallet solutions for secure transactions and user authentication.
+    - Conduct internal testing for stability, performance, and functionality.
+
     - Implement advanced auction mechanics.
 
-- Phase 3 (6-12 months):
+- Phase 3: Beta Launch and Community Engagement (Months 7–9)
+  - Launch beta version of the platform on XRPL Testnet with select creators and users.
+  - Implement feedback-driven improvements to enhance user experience and platform reliability
+  - Develop educational materials and marketing campaigns to onboard creators and buyers.
+  - Integrate additional features such as analytics for creators and sustainability tracking tools.
+
+- Phase 4: Full Launch and Scaling  (10-12 months):
    - Scale platform with gamified rewards.
    - Introduce sustainability-focused features.
+   - Deploy the final version of RYTU on XRPL Mainnet.
+   - Implement advanced features like ad-space purchasing and royalty distribution among collaborators
+   - Initiate global partnerships and expand outreach campaigns to drive adoption.
+   - Establish ongoing support mechanisms for users and a feedback loop for platform updates.
