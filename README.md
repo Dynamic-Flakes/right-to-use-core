@@ -18,6 +18,29 @@ Welcome to the RYTU Core Repository, which contains the essential components of 
 - RYTU-Backend: Handles API requests, business logic, and data orchestration.
 - RYTU-Contract: Solidity-based smart contracts that implement the marketplace's logic. This is deployed on XRPL EVM Sidechain
 
+## Repository Structure
+```
+RYTU-Core/
+├── rytu-frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── README.md
+├── rytu-backend/
+│   ├── dist/
+│   ├── src/
+│   ├── package.json
+│   ├── README.md
+├── rytu-contract/
+│   ├── docs/
+    ├── lib/
+    ├── script/
+│   ├── src/
+│   ├── test/
+│   ├── foundary.toml
+│   ├── README.md
+└── README.md
+```
 
 # Fronted code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
