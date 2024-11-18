@@ -42,7 +42,39 @@ RYTU-Core/
 └── README.md
 ```
 
-# Fronted code located in:
+
+## RYTU-Frontend
+Description
+The frontend is built using React.js, Nextjs, Typescript, Graphql and styled with Tailwind CSS, providing a seamless user experience for minting, managing, and trading RYTU NFTs.
+
+Key Features
+- Seamless onboarding and Wallet integration (XRP Ledger).
+- Minting and verify ownership interface.
+- Create Rytu 
+- Request Rytu
+- Verification certification
+- Explore marketplace
+
+#### Installation Instructions
+ - Git clone the repository
+ - Navigate to the ```rytu-frontend directory```
+ ```
+ bash
+
+ cd rytu-frontend
+ ```
+ - Install dependencies:
+```
+npm install or yarn install
+```
+
+- Start the development server:
+```
+npm start
+
+```
+
+### Fronted code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
 
 # Backend code located in:
