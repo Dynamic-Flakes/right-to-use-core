@@ -206,8 +206,8 @@ RYTU uses XRPL's EVM Sidechain for:
    - Initiate global partnerships and expand outreach campaigns to drive adoption.
    - Establish ongoing support mechanisms for users and a feedback loop for platform updates.
   - Release the production version of RYTU, with features for cross-border licensing, royalty tracking, and dispute resolution.
- - Establish partnerships with media companies and brands to encourage bulk licensing on the platform.
- - Scale platform security and infrastructure to support global adoption.
+   - Establish partnerships with media companies and brands to encourage bulk licensing on the platform.
+   - Scale platform security and infrastructure to support global adoption.
 
 
 
