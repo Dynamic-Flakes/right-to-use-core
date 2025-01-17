@@ -9,7 +9,7 @@
   <a href="https://github.com/codeEzzy/lightlink">
     <img src="./diagrams/right.png" alt="Logo" width="200" height="55">
   </a>
-  
+
 --- 
 
   <h3 align="center">The Right to Use (RYTU)</h3>
@@ -59,8 +59,13 @@ RYTU combines blockchain technology, smart contracts, and an intuitive UI to red
 - Smart Contracts: Solidity on XRPL EVM Sidechain
 --- 
 
-## Architecture Diagram
+## High-Level Architecture Diagram
 Refer to the /diagrams folder for an architectural representation of the platform and its XRPL integrations.
+
+
+![Alt text](./diagrams/rytu.drawio.png?raw=true "Rytu on Testnet")
+
+
 --- 
 
 # Quick Start Guide
