@@ -194,8 +194,8 @@ RYTU uses XRPL's EVM Sidechain for:
   - Develop educational materials and marketing campaigns to onboard creators and buyers.
   - Integrate additional features such as analytics for creators and sustainability tracking tools.
   - Launch a comprehensive marketing campaign targeting content creators, investors, and brands.
- - Partner with influencers and creator hubs to encourage the adoption of the RYTU platform.
- - Expand XRPL wallet integrations to include popular wallets like Xumm.
+   - Partner with influencers and creator hubs to encourage the adoption of the RYTU platform.
+   - Expand XRPL wallet integrations to include popular wallets like Xumm.
  
 
 - Phase 4: Full Launch and Scaling  (10-12 months):
