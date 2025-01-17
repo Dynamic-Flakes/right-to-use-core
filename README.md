@@ -12,13 +12,14 @@
 
 </div>
 
-Welcome to the RYTU Core Repository, which contains the essential components of the RYTU platform, enabling seamless minting, management, and trading of content rights through NFTs. This repository is organized into three main components:
+Welcome to the official RYTU Core Repository. This repository houses the foundational components enabling the seamless minting, management, and trading of digital content rights through NFTs on the XRPL EVM Sidechain. RYTU's mission is to empower creators with transparent, decentralized, and scalable solutions for intellectual property management.This repository is organized into three main components:
 
 - RYTU-Frontend: The user-facing interface for interaction.
 - RYTU-Backend: Handles API requests, business logic, and data orchestration.
 - RYTU-Contract: Solidity-based smart contracts that implement the marketplace's logic. This is deployed on XRPL EVM Sidechain
 
-## Core RYTU Includes:
+## Repository Overview:
+The repository is organized into three main components:
 ```
 RYTU-Core/
 ├── rytu-frontend/
@@ -41,8 +42,17 @@ RYTU-Core/
 │   ├── README.md
 └── README.md
 ```
+## System Design and Narrative
+RYTU combines blockchain technology, smart contracts, and an intuitive UI to redefine digital content rights licensing. The core is built with:
 
+- Frontend: React.js + Next.js
+- Backend: Node.js + GraphQL
+- Smart Contracts: Solidity on XRPL EVM Sidechain
 
+## Architecture Diagram
+Refer to the /diagrams folder for an architectural representation of the platform and its XRPL integrations.
+
+# Quick Start Guide
 ## RYTU-Frontend
 Description
 The frontend is built using React.js, Nextjs, Typescript, Graphql and styled with Tailwind CSS, providing a seamless user experience for minting, managing, and trading RYTU NFTs.
@@ -151,6 +161,13 @@ forge build
 #### Smart contracts code located in:
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
+
+## XRPL Integration
+RYTU uses XRPL's EVM Sidechain for:
+- NFT Tokenization: Fast minting and metadata storage for scalable and verifiable rights management.
+- Global Payments: Leveraging XRPL's low-fee infrastructure for seamless cross-border transactions.
+- On-Chain Automation: Smart contract-based licensing and royalty disbursement.
+
 ### Product Roadmap
 - Phase 1: Research, Design, and Prototype Development (Months 1–3)
 :
@@ -179,3 +196,17 @@ forge build
    - Implement advanced features like ad-space purchasing and royalty distribution among collaborators
    - Initiate global partnerships and expand outreach campaigns to drive adoption.
    - Establish ongoing support mechanisms for users and a feedback loop for platform updates.
+
+
+## Security and Compliance
+ - GDPR and CCPA compliance for data privacy.
+- Use of XRPL's transparency for verifiable licensing records.
+- Cybersecurity measures, including encryption and multi-factor authentication.
+
+## License
+This project is licensed under the MIT License.
+
+Contributors:
+
+- Sunday Aroh
+- Odoh David
