@@ -18,6 +18,8 @@ Welcome to the official RYTU Core Repository. This repository houses the foundat
 - RYTU-Backend: Handles API requests, business logic, and data orchestration.
 - RYTU-Contract: Solidity-based smart contracts that implement the marketplace's logic. This is deployed on XRPL EVM Sidechain
 
+--- 
+
 ## Repository Overview:
 The repository is organized into three main components:
 ```
@@ -42,15 +44,19 @@ RYTU-Core/
 │   ├── README.md
 └── README.md
 ```
+--- 
+
 ## System Design and Narrative
 RYTU combines blockchain technology, smart contracts, and an intuitive UI to redefine digital content rights licensing. The core is built with:
 
 - Frontend: React.js + Next.js
 - Backend: Node.js + GraphQL
 - Smart Contracts: Solidity on XRPL EVM Sidechain
+--- 
 
 ## Architecture Diagram
 Refer to the /diagrams folder for an architectural representation of the platform and its XRPL integrations.
+--- 
 
 # Quick Start Guide
 ## RYTU-Frontend
@@ -134,6 +140,7 @@ forge build
 #### Smart contracts code located in:
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
+--- 
 
 ## Key Features
 ## RYTU-Frontend
@@ -167,11 +174,15 @@ The smart contract layer implements the core RYTU NFT marketplace logic, deploye
 - Royalty distribution and fractional ownership.
 - Auction and bidding mechanisms.
 
+--- 
+
 ## XRPL Integration
 RYTU uses XRPL's EVM Sidechain for:
 - NFT Tokenization: Fast minting and metadata storage for scalable and verifiable rights management.
 - Global Payments: Leveraging XRPL's low-fee infrastructure for seamless cross-border transactions.
 - On-Chain Automation: Smart contract-based licensing and royalty disbursement.
+
+--- 
 
 ### Product Roadmap
 - Phase 1: Research, Design, and Prototype Development (Months 1–3)
@@ -209,17 +220,24 @@ RYTU uses XRPL's EVM Sidechain for:
    - Establish partnerships with media companies and brands to encourage bulk licensing on the platform.
    - Scale platform security and infrastructure to support global adoption.
 
+--- 
 
 
-## Security and Compliance
+## **Security and Compliance**
  - GDPR and CCPA compliance for data privacy.
 - Use of XRPL's transparency for verifiable licensing records.
 - Cybersecurity measures, including encryption and multi-factor authentication.
 
-## License
-This project is licensed under the MIT License.
+--- 
 
-Contributors:
+## **License**
+This project is licensed under the [MIT License](LICENSE).
 
-- Sunday Aroh
-- Odoh David
+**Contributors**:  
+- **Sunday Aroh**
+- **Odoh David**  
+
+--- 
+
+
+[Visit RYTU Platform](https://rytu.netlify.app/) | [GitHub Repository](https://github.com/Dynamic-Flakes/right-to-use-core) | [Documentation](https://github.com/Dynamic-Flakes/right-to-use-core/docs) 
