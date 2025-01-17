@@ -54,17 +54,6 @@ Refer to the /diagrams folder for an architectural representation of the platfor
 
 # Quick Start Guide
 ## RYTU-Frontend
-Description
-The frontend is built using React.js, Nextjs, Typescript, Graphql and styled with Tailwind CSS, providing a seamless user experience for minting, managing, and trading RYTU NFTs.
-
-Key Features
-- Seamless onboarding and Wallet integration (XRP Ledger).
-- Minting and verify ownership interface.
-- Create Rytu 
-- Request Rytu
-- Verification certification
-- Explore marketplace
-
 #### Installation Instructions
  - Git clone the repository
  - Navigate to the ```rytu-frontend directory```
@@ -91,14 +80,6 @@ npm start
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
 
 ### RYTU-Backend
-Description:
-The backend is powered by Node.js, Graphql and Express.js, responsible for handling API requests, transaction validation, and integration with the XRPL.
-
-#### Key Features
-- API for querying NFT metadata and marketplace transactions.
-- Authentication and user management.
-- Analytics and reporting on NFT activity.
-
 #### Installation Instructions
 - Git clone the repository
 - Navigate to the rytu-backend directory:
@@ -117,14 +98,6 @@ npm start or yarn start
 [Click to view](https://github.com/Dynamic-Flakes/rytu-backend)
 
 ### RYTU-Contract
-Description
-The smart contract layer implements the core RYTU NFT marketplace logic, deployed on the XRPL EVM Sidechain.
-
-#### Key Features
-- Minting ERC-721 and ERC-1155 NFTs.
-- Royalty distribution and fractional ownership.
-- Auction and bidding mechanisms.
-
 ##### Compilation and Deployment
 - Git clone the repository
 - Foundry: Install it by running:
@@ -161,6 +134,38 @@ forge build
 #### Smart contracts code located in:
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
+
+## Key Features
+## RYTU-Frontend
+Description
+The frontend is built using React.js, Nextjs, Typescript, Graphql and styled with Tailwind CSS, providing a seamless user experience for minting, managing, and trading RYTU NFTs.
+
+Key Features
+- Seamless onboarding and Wallet integration (XRP Ledger).
+- Minting and verify ownership interface.
+- Create Rytu 
+- Request Rytu
+- Verification certification
+- Explore marketplace
+
+### RYTU-Backend
+Description:
+The backend is powered by Node.js, Graphql and Express.js, responsible for handling API requests, transaction validation, and integration with the XRPL.
+
+#### Key Features
+- API for querying NFT metadata and marketplace transactions.
+- Authentication and user management.
+- Analytics and reporting on NFT activity.
+
+
+### RYTU-Contract
+Description
+The smart contract layer implements the core RYTU NFT marketplace logic, deployed on the XRPL EVM Sidechain.
+
+#### Key Features
+- Minting ERC-721 and ERC-1155 NFTs.
+- Royalty distribution and fractional ownership.
+- Auction and bidding mechanisms.
 
 ## XRPL Integration
 RYTU uses XRPL's EVM Sidechain for:
