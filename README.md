@@ -1,5 +1,7 @@
 # Right-to-Use-Core
 
+--- 
+
 <a name="readme-top"></a>
 
 <br />
@@ -11,6 +13,8 @@
   <h3 align="center">The Right to Use (RYTU)</h3>
 
 </div>
+
+--- 
 
 Welcome to the official RYTU Core Repository. This repository houses the foundational components enabling the seamless minting, management, and trading of digital content rights through NFTs on the XRPL EVM Sidechain. RYTU's mission is to empower creators with transparent, decentralized, and scalable solutions for intellectual property management.This repository is organized into three main components:
 
