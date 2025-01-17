@@ -61,23 +61,20 @@ Refer to the /diagrams folder for an architectural representation of the platfor
 # Quick Start Guide
 ## RYTU-Frontend
 #### Installation Instructions
- - Git clone the repository
- - Navigate to the ```rytu-frontend directory```
- ```
- bash
+1. Clone the repository and navigate to `rytu-frontend`.
+    ```bash
+    git clone https://github.com/Dynamic-Flakes/right-to-use-core.git
+    cd rytu-frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install or or yarn install
+    ```
+3. Start the development server:
+   ```bash
+   npm start or yarn start
+   ```
 
- cd rytu-frontend
- ```
- - Install dependencies:
-```
-npm install or yarn install
-```
-
-- Start the development server:
-```
-npm start
-
-```
 
 ![Alt text](./diagrams/rytuui.png?raw=true "Rytu on Testnet")
 
@@ -87,56 +84,71 @@ npm start
 
 ### RYTU-Backend
 #### Installation Instructions
-- Git clone the repository
-- Navigate to the rytu-backend directory:
-```
-cd rytu-backend
-```
-- Install dependencies:
-```
-npm install or yarn install
-```
-- Start the server:
-```
-npm start or yarn start
-```
+
+   1. Navigate to the `rytu-backend` directory.
+    ```bash
+    cd rytu-backend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the server:
+    ```bash
+    npm start
+    ```
 # Backend code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-backend)
+Here’s a refined and numbered format for your **RYTU-Contract Compilation and Deployment** section:
 
-### RYTU-Contract
-##### Compilation and Deployment
-- Git clone the repository
-- Foundry: Install it by running:
-```
-curl -L https://foundry.paradigm.xyz | bash
-foundryup
-```
-- Navigate to the rytu-contract directory:
-```
-cd rytu-contract
-```
-- Build the contract to generate the ABI and bytecode in the out/ directory.
+---
 
-```
-forge build
-```
-- Deployment : 
+### **RYTU-Contract**
+#### **Compilation and Deployment**
+1. **Clone the Repository**  
+   Clone the RYTU Core Repository to your local environment:
+   ```bash
+   git clone https://github.com/Dynamic-Flakes/right-to-use-core.git
+   ```
 
-  - Configuration: Ensure the deployment environment variables are set in a .env file:
-  ```
-  RPC_URL="https://your-network-rpc-url"
-  PRIVATE_KEY="your-private-key"
+2. **Install Foundry**  
+   Install Foundry, a powerful Ethereum development toolkit:
+   ```bash
+   curl -L https://foundry.paradigm.xyz | bash
+   foundryup
+   ```
 
-  ```
-  - Script Execution: Use a prewritten deployment script in the script/ directory. Example:
-  ```
-  forge script script/Deploy.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
-  ```
-  - Verify deployment
-  ```
-  forge verify-contract <contract_address> <source_file> --chain-id <sidechain_chain_id> --etherscan-api-key <api_key>
-  ```
- 
+3. **Navigate to the Contract Directory**  
+   Move into the `rytu-contract` directory:
+   ```bash
+   cd rytu-contract
+   ```
+
+4. **Build the Contract**  
+   Compile the smart contracts to generate the ABI and bytecode, stored in the `out/` directory:
+   ```bash
+   forge build
+   ```
+
+5. **Deployment**
+   a. **Set Environment Variables**  
+      Create a `.env` file and configure the required variables:
+      ```plaintext
+      RPC_URL="https://your-network-rpc-url"
+      PRIVATE_KEY="your-private-key"
+      ```
+
+   b. **Deploy the Contract**  
+      Execute the deployment script available in the `script/` directory:
+      ```bash
+      forge script script/Deploy.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
+      ```
+
+   c. **Verify Deployment**  
+      Use Foundry to verify the deployed contract:
+      ```bash
+      forge verify-contract <contract_address> <source_file> --chain-id <sidechain_chain_id> --etherscan-api-key <api_key>
+      ``` 
 #### Smart contracts code located in:
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
 
