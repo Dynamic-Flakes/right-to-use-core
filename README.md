@@ -109,7 +109,6 @@ Refer to the /diagrams folder for an architectural representation of the platfor
     ```
 # Backend code located in:
 [Click to view](https://github.com/Dynamic-Flakes/rytu-backend)
-Here’s a refined and numbered format for your **RYTU-Contract Compilation and Deployment** section:
 
 ---
 
