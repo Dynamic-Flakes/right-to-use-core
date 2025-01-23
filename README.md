@@ -63,7 +63,7 @@ RYTU combines blockchain technology, smart contracts, and an intuitive UI to red
 Refer to the /diagrams folder for an architectural representation of the platform and its XRPL integrations.
 
 
-![Alt text](./diagrams/system.jpg?raw=true "Rytu on Testnet")
+![Alt text](./diagrams/system.png?raw=true "Rytu on Testnet")
 
 
 --- 
