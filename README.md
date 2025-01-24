@@ -90,8 +90,10 @@ Refer to the /diagrams folder for an architectural representation of the platfor
 
 
 ### Fronted code located in:
-[Demo Link](https://righttouse.com/)
 [Click to view](https://github.com/Dynamic-Flakes/rytu-frontend)
+
+### Click to see the Demo
+[Demo Link](https://righttouse.com/)
 
 ### RYTU-Backend
 #### Installation Instructions
@@ -109,8 +111,10 @@ Refer to the /diagrams folder for an architectural representation of the platfor
     npm start
     ```
 # Backend code located in:
-[Demo Link](https://righttouse.com/)
 [Click to view](https://github.com/Dynamic-Flakes/rytu-backend)
+
+### Click to see the Demo
+[Demo Link](https://rytu.onrender.com/graphql)
 
 ---
 
@@ -161,8 +165,10 @@ Refer to the /diagrams folder for an architectural representation of the platfor
       forge verify-contract <contract_address> <source_file> --chain-id <sidechain_chain_id> --etherscan-api-key <api_key>
       ``` 
 #### Smart contracts code located in:
-[Demo Link](https://explorer.xrplevm.org/address/0xAe90389BC8bAF5B5bdc3Ed9aCc7021D64187c549)
  [Click to view](https://github.com/Dynamic-Flakes/rytu-contract)
+
+### Click to see the Demo
+[Demo Link](https://explorer.xrplevm.org/address/0xAe90389BC8bAF5B5bdc3Ed9aCc7021D64187c549)
 
 --- 
 
